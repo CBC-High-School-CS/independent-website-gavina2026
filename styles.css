@@ -1,4 +1,4 @@
-Styles.css
+
 
 /* Global Styles */
 body {
@@ -144,7 +144,7 @@ nav ul li a:hover, .current {
     background: #87CEEB;
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px 20px;
 }
 
 .cta-section h2 {
@@ -161,25 +161,140 @@ aside {
     width: 150px;
     float: right;
     text-align: center;
-    padding: 0px 0px 0px 20px;
+    padding: 20px 0px 0px 20px;
 }
+
 aside a {
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
+
 aside a:hover {
     color: #fff;
     background-color: #efefef;
 }
+
 a {
     color: #fff;
     text-decoration: none;
 }
+
 footer div {
-    /* text-align: center; */
     padding: 15px;
     background: #87CEEB;
     color: white;
     margin-top: 20px;
 }
 
+/* About Us Page Styles */
+.about-intro,
+.our-mission,
+.our-promise,
+.meet-the-team {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border: 2px solid #87CEEB;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.about-intro h2,
+.our-mission h2,
+.our-promise h2,
+.meet-the-team h2 {
+    color: #87CEEB;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-intro p,
+.our-mission p,
+.our-promise li,
+.meet-the-team p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.our-promise ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.our-promise li {
+    margin-bottom: 10px;
+}
+
+/* Contact Us Page Styles */
+.contact-hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-hero h2 {
+    color: #87CEEB;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border: 2px solid #87CEEB;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #87CEEB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #5daedb;
+}
+
+.response-message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
