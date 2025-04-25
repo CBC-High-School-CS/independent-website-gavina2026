@@ -1,0 +1,300 @@
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.top-bar {
+    background-color: #87CEEB;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background: #87CEEB;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover, .current {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 12px 24px;
+    background: white;
+    color: #87CEEB;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #87CEEB;
+    transition: background 0.3s ease;
+}
+
+.cta:hover {
+    background: #5daedb;
+    color: white;
+}
+
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #87CEEB;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.service {
+    background: white;
+    border: 2px solid #87CEEB;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.service h3 {
+    color: #87CEEB;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1em;
+    color: #555;
+}
+
+.service img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.cta-section {
+    background: #87CEEB;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 150px;
+    float: right;
+    text-align: center;
+    padding: 20px 0px 0px 20px;
+}
+
+aside a {
+    display: block;
+    padding: 15px;
+}
+
+aside a:hover {
+    color: #fff;
+    background-color: #efefef;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer div {
+    padding: 15px;
+    background: #87CEEB;
+    color: white;
+    margin-top: 20px;
+}
+
+/* About Us Page Styles */
+.about-intro,
+.our-mission,
+.our-promise,
+.meet-the-team {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border: 2px solid #87CEEB;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.about-intro h2,
+.our-mission h2,
+.our-promise h2,
+.meet-the-team h2 {
+    color: #87CEEB;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-intro p,
+.our-mission p,
+.our-promise li,
+.meet-the-team p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.our-promise ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.our-promise li {
+    margin-bottom: 10px;
+}
+
+/* Contact Us Page Styles */
+.contact-hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-hero h2 {
+    color: #87CEEB;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border: 2px solid #87CEEB;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #87CEEB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #5daedb;
+}
+
+.response-message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
